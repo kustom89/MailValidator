@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tittleTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Ingresa tu password"
+        android:textAlignment="center"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/inputEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:paddingTop="16dp"
+        android:textAlignment="center"
+        android:textSize="130sp"/>
+
+    <TextView
+        android:id="@+id/passTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Validador de password"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/resultBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:background="@android:color/white"
+        android:textColor="@android:color/holo_blue_light"
+        android:text="Comprobar" />
+
+    <TextView
+        android:id="@+id/validationTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="48dp"
+        android:textSize="36sp" />
+
+</LinearLayout>
